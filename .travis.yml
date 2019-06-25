@@ -31,11 +31,11 @@ matrix:
         - os: linux
           dist: trusty
           sudo: false
-          php: hhvm
+          php: 7.2
         - os: linux
           dist: trusty
           sudo: false
-          php: nightly
+          php: 7.3
 
 before_script:
   - composer self-update
